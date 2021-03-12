@@ -9,7 +9,7 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
 
     @Override
     public Set<Vet> findAll() {
-        super.findAll();
+        return super.findAll();
     }
 
     @Override

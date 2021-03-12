@@ -9,7 +9,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Set<Owner> findAll() {
-        super.findAll();
+        return super.findAll();
     }
 
     @Override
